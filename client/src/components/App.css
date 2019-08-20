@@ -246,11 +246,11 @@ nav a:link {
   font-size: 3rem;
   transition: width 0.2s ease-in;
   margin: 2em;
-  width: 10em;
+  width: 70%;
 }
 
 .search:focus {
-  width: 12em;
+  width: 90%;
 }
 
 .spinner {
