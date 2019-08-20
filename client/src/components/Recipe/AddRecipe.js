@@ -105,6 +105,7 @@ class AddRecipe extends React.Component {
                 className="form"
                 onSubmit={event => this.handleSubmit(event, addRecipe)}
               >
+                <label htmlFor="name">Recipe Name</label>
                 <input
                   type="text"
                   name="name"
@@ -112,6 +113,7 @@ class AddRecipe extends React.Component {
                   onChange={this.handleChange}
                   value={name}
                 />
+                <label htmlFor="imageUrl">Recipe Image</label>
                 <input
                   type="text"
                   name="imageUrl"
@@ -119,6 +121,7 @@ class AddRecipe extends React.Component {
                   onChange={this.handleChange}
                   value={imageUrl}
                 />
+                <label htmlFor="category">Category of Recipe</label>
                 <select
                   name="category"
                   onChange={this.handleChange}
@@ -129,6 +132,7 @@ class AddRecipe extends React.Component {
                   <option value="Dinner">Dinner</option>
                   <option value="Snack">Snack</option>
                 </select>
+                <label htmlFor="description">Recipe Description</label>
                 <input
                   type="text"
                   name="description"
